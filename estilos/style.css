@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+main{
+    margin: 60px auto;
+    width: 300px;
+    max-width: 90%;
+}
+main img{
+    display: block;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 256px;
+    height: 215px;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.705);
+}
+section{
+    width: 236px; 
+    background-color: white;
+    padding: 1px 10px 20px 10px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.705);
+}
+section h1{
+    text-align: center;
+    margin: 10px;
+}
+section #parágrafo{
+    text-align: left;
+    margin-bottom: 3px;
+    font-size: 13.1px;
+}
+section .email,
+section .senha {
+    text-align: right;
+    background-color: blueviolet;
+    padding: 3px 3px 3px 0px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+section .input {
+    background-color: rgba(92, 214, 255, 0.87);
+    border: none;
+    font-size: 1em;
+    padding-left: 4px;
+    border-radius: 8px;
+    width: 80%;
+    height: 35px;
+    display: inline-block;
+}
+section .input:focus{
+    background-color: white;
+}
+section #entrar{
+    background-color: rgb(1, 185, 185);
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+section #entrar:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+section a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 179, 179);
+    font-size: 15px;
+    border: 1px solid rgb(0, 177, 177);
+    border-radius: 8px;
+    padding: 12px;
+    display: block;
+    margin: auto;
+}
+section a:hover{
+    background-color: rgba(0, 202, 202, 0.589);
+}
