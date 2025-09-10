@@ -1,12 +1,17 @@
 @charset "UTF-8";
-
+:root{
+    --cor1:white;
+    --cor2:lightgray;
+    --cor3:gray;
+    --cor4:rgb(80, 80, 80);
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blueviolet;
+    background-color: var(--cor4);
 }
 main{
     margin: 60px auto;
@@ -24,7 +29,7 @@ main img{
 }
 section{
     width: 236px; 
-    background-color: white;
+    background-color: var(--cor1);
     padding: 1px 10px 20px 10px;
     margin: auto;
     border-bottom-left-radius: 20px;
@@ -43,13 +48,13 @@ section #parágrafo{
 section .email,
 section .senha {
     text-align: right;
-    background-color: blueviolet;
+    background-color: var(--cor4);
     padding: 3px 3px 3px 0px;
     margin-bottom: 5px;
     border-radius: 8px;
 }
 section .input {
-    background-color: rgba(92, 214, 255, 0.87);
+    background-color: var(--cor2);
     border: none;
     font-size: 1em;
     padding-left: 4px;
@@ -59,11 +64,11 @@ section .input {
     display: inline-block;
 }
 section .input:focus{
-    background-color: white;
+    background-color: var(--cor1);
 }
 section #entrar{
-    background-color: rgb(1, 185, 185);
-    color: white;
+    background-color: var(--cor3);
+    color: var(--cor1);
     font-size: 15px;
     padding: 12px;
     margin-bottom: 5px;
@@ -72,21 +77,21 @@ section #entrar{
     border-radius: 8px;
 }
 section #entrar:hover{
-    background-color: darkcyan;
+    background-color: var(--cor4);
     cursor: pointer;
 }
 section a{
     text-decoration: none;
     text-align: center;
-    background-color: white;
-    color: rgb(0, 179, 179);
+    background-color: var(--cor1);
+    color: var(--cor4);
     font-size: 15px;
-    border: 1px solid rgb(0, 177, 177);
+    border: 1px solid var(--cor4);
     border-radius: 8px;
     padding: 12px;
     display: block;
     margin: auto;
 }
 section a:hover{
-    background-color: rgba(0, 202, 202, 0.589);
+    background-color: var(--cor2);
 }
