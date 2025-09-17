@@ -1,9 +1,9 @@
 @charset "UTF-8";
 :root{
     --cor1:white;
-    --cor2:lightgray;
-    --cor3:gray;
-    --cor4:rgb(80, 80, 80);
+    --cor2:rgb(180, 140, 200);
+    --cor3:rgb(90, 0, 110);
+    --cor4:#500050;
 }
 *{
     margin: 0px;
